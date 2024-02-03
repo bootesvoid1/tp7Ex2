@@ -1,0 +1,16 @@
+<div class="add-article-container">
+  <div class="title"><h2> Add an article</h2></div>
+  <form (submit)="addArticle()">
+    <mat-form-field appearance="outline">
+      <mat-label>Title</mat-label>
+      <input matInput placeholder="Enter the title of the article" [(ngModel)]="newArticle.title" name="firstName">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Content</mat-label>
+      <textarea matInput placeholder="Enter the content of the article" [(ngModel)]="newArticle.content" name="firstName"></textarea>
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" type="submit">Add Article</button>
+  </form>
+</div>

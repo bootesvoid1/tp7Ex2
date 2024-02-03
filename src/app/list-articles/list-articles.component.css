@@ -1,0 +1,33 @@
+.card-container{
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.title{
+  position: flex;
+  flex-direction: inline;
+    align-items: center;
+        text-align: center;
+}
+.article-card {
+  border: 1px solid #ddd; /* Couleur de la bordure */
+  border-radius: 5px; /* Rayon de la bordure arrondie */
+  margin: 10px; /* Marge autour de la carte */
+  padding: 10px; /* Rembourrage à l'intérieur de la carte */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Ombre de la carte */
+ }
+
+ .article-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Ajoute une ombre lorsqu'on passe la souris dessus */
+ }
+
+ .article-card .mat-card-header {
+  background-color: #f8f9fa; /* Couleur d'arrière-plan de l'en-tête */
+ }
+
+ .article-card .mat-card-content {
+  color: #343a40; /* Couleur du texte du contenu */
+ }
+ .modify-btn, .delete-btn {
+  margin-right: 10px; /* adjust as needed */
+ }

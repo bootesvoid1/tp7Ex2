@@ -1,0 +1,59 @@
+/* Center the form container */
+.add-article-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  width: 100%; /* Full viewport width */
+ }
+
+ /* Style the form */
+ form {
+  max-width: 600px; /* Set a maximum width for the form */
+  padding: 20px;
+  background-color: #fff; /* White background */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+ }
+
+ /* Remove background color from buttons */
+ button[mat-button] {
+  background-color: transparent; /* Transparent background */
+  color: inherit; /* Use the same color as the text */
+ }
+
+ /* Display form fields as a column */
+ mat-form-field {
+  display: block;
+  margin-bottom: 1rem;
+ }
+ button[mat-button] {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left:20px;
+  border: 1px solid #ddd; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px; /* Padding inside the button */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Button shadow */
+  transition: box-shadow 0.3s ease; /* Smooth transition for hover effect */
+ }
+
+ button[mat-button]:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+ }
+
+ /* Optional: Style the form fields */
+ mat-form-field {
+  display: block;
+  margin-bottom: 1rem;
+ }
+ .title{
+  font:inherit;
+  color:red;
+  font-weight: bold;
+  position: flex;
+  flex-direction: inline;
+  align-items: center;
+  text-align: center;
+}
